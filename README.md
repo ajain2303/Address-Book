@@ -22,13 +22,13 @@ This is where we are going to making all of our RESTful requests to the Address 
 
 - POST: To create a contact, send a POST request to http://localhost:4567/contact with a request body that looks like this: 
    
-				{
- 	    "name": "Bob",
+			
+ 	   { "name": "Bob",
  	    "phone":"1234567890",
-      "city": "Sydney",
-      "state":"AU",
-      "streetAddress":"42 Wallaby Way"
-     }
+      	    "city": "Sydney",
+            "state":"AU",
+            "streetAddress":"42 Wallaby Way" }
+      
  
 - PUT: To update a contact, send a request to http://localhost:4567/contact/{name} with a request body of all the fields desired to change
  

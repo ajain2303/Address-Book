@@ -1,20 +1,20 @@
 # Address Book API
 Built a RESTful API in Java for an Address Book with an Elasticearch Data Storage. 
 
-#Capabilities
--GET: Get a list of all contacts or get a contact by name
--POST: Create a contact
--PUT: Update a contact
--DELETE: Delete a contact
+# Capabilities
+- GET: Get a list of all contacts or get a contact by name
+- POST: Create a contact
+- PUT: Update a contact
+- DELETE: Delete a contact
 
-#Install and Run Elastic Search 
+# Install and Run Elastic Search 
 curl -L -O https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-6.2.4.tar.gz
 tar -xvf elasticsearch-6.2.4.tar.gz
 cd elasticsearch-6.2.4/bin
 ./elasticsearch
 We now have the Elastic search up and runnning.
 
-#How to run the code
+# How to run the code
 Once you have Elastic search server running, open up the repository in an IDE. Once you click run, you should be able to acces http://localhost:4567
 This is where we are going to making all of our RESTful requests to the Address Book. 
 
